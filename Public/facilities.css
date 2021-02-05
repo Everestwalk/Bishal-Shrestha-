@@ -1,0 +1,229 @@
+/****RESET CSS******/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***BODY CSS*****/
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    background-color: #ffffff;
+    overflow-x: none;
+}
+@media only screen and (max-width: 600px){
+	.knowledge h1{
+		font-size: 36px;
+	}
+}
+
+.wrapper:nth-of-type(1){
+	padding: 100px 0 0 0;
+}
+.wrapper:nth-of-type(9){
+	padding: 0px 0 100px 0;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 945px;
+}
+.title{
+	padding: 0 0 15px 0;
+	margin: 0 0 15px 0;
+}
+h2{
+	color: #0073B1;
+	font-size: 30px;
+}
+.top-text-part{
+	display: flex;
+}
+img{
+	padding: 0 0 0px 15px;
+}
+p{
+	color: #666666;
+	font-size: 15px;
+	font-weight: 500;
+}
+hr{
+	width: 100%;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #eee;
+	margin: 30px 0 30px 0;
+}
+.classroom h2{
+	color: rgb(32, 123, 165);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    word-break: keep-all;
+    text-align: center;
+}
+.classroom p{
+	font-size: 17px;
+    text-align: justify;
+}
+.classroomimg{
+	padding: 50px 0 0 0;
+}
+.extra h2{
+	color: rgb(32, 123, 165);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    word-break: keep-all;
+    text-align: center;
+}
+.extra p{
+	font-size: 17px;
+    text-align: justify;
+}
+.extraimg{
+	padding: 80px 0 0 0;
+}
+.healthcare h2{
+	color: rgb(32, 123, 165);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    word-break: keep-all;
+    text-align: center;
+}
+.healthcare p{
+	font-size: 17px;
+    text-align: justify;
+}
+.healthcareimg{
+	padding: 80px 0 0 0;
+}
+.transportation h2{
+	color: rgb(32, 123, 165);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    word-break: keep-all;
+    text-align: center;
+}
+.transportation p{
+	font-size: 17px;
+    text-align: justify;
+}
+.transportationimg{
+	padding: 80px 0 0 0;
+}
+.unifrm h2{
+	color: rgb(32, 123, 165);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    word-break: keep-all;
+    text-align: center;
+}
+.unifrm p{
+	font-size: 17px;
+    text-align: justify;
+}
+.unifrmimg{
+	padding: 80px 0 0 0;
+}
+.cafeteria h2{
+	color: rgb(32, 123, 165);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    word-break: keep-all;
+    text-align: center;
+}
+.cafeteria p{
+	font-size: 17px;
+    text-align: justify;
+}
+.cafeteriaimg{
+	padding: 80px 0 0 0;
+}
+.individuallocker h2{
+	color: rgb(32, 123, 165);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    word-break: keep-all;
+    text-align: center;
+}
+.individuallocker p{
+	font-size: 17px;
+    text-align: justify;
+}
+.individuallockerimg{
+	padding: 80px 0 0 0;
+}
+.phone h2{
+	color: rgb(32, 123, 165);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    word-break: keep-all;
+    text-align: center;
+}
+.phone p{
+	font-size: 17px;
+    text-align: justify;
+}
+.phoneimg{
+	padding: 80px 0 0 0;
+}
+.schoolmis h2{
+	color: rgb(32, 123, 165);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    word-break: keep-all;
+    text-align: center;
+}
+.schoolmis p{
+	font-size: 17px;
+    text-align: justify;
+}
+.schoolmisimg{
+	padding: 90px 0 0 0;
+}
