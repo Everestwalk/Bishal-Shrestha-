@@ -50,9 +50,15 @@ body {
     background-color: #ffffff;
     overflow-x: none;
 }
+.logof p{
+	margin-top: -14px;
+}
 @media only screen and (max-width: 600px){
 	.knowledge h1{
 		font-size: 36px;
+	}
+	.logof p{
+		margin-top: 0px;
 	}
 }
 

@@ -8,16 +8,18 @@
 }
 /*------------CONTACT FORM CSS-------------------------*/
 .logo img{
-  width: 150px;
+  width: 130px;
 }
 .logo p{
   font-weight: bold;
   color: rgb(17, 96, 216);
-  font-size: 14px;
+  font-size: 12px;
+  margin-bottom: 0.5rem;
 }
 .navbar{
   font-family: 'Balsamiq Sans', cursive;
   background-color: rgb(255, 255, 255);
+  padding: 0rem;
 }
 *{
     margin: 0;
@@ -189,6 +191,7 @@
     font-weight: bold;
     color: rgb(17, 96, 216);
     margin-left: 10px;
+    /* margin-bottom: 0rem; */
   }
   }
   
@@ -243,6 +246,7 @@
     font-weight: bold;
     color: rgb(17, 96, 216);
     margin-left: 10px;
+    
   }
   
   }
@@ -371,6 +375,9 @@
         .clash{
           margin: 0;
         }
+        .logo p{
+          margin-bottom: 0rem;
+        }
   }
 
 /*---------Header------------*/
@@ -480,6 +487,7 @@ z-index: 0;
       font-weight: bold;
       color: rgb(17, 96, 216);
       margin-left: 10px;
+      margin-bottom: 0;
     }
     .clash{
       margin: 0;
