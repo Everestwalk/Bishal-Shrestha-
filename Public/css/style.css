@@ -195,11 +195,11 @@
       margin: 0 auto;
   }
   .contactform form input[type="text"],.contactform form input[type="number"],.contactform form textarea{
-    width: 600px;
+    width: 700px;
   }
   }
   
-  @media only screen and (min-width: 1025px){
+  @media only screen and (min-width: 1000px){
     .cont{
       display: flex;
       justify-content: center;
@@ -234,14 +234,19 @@
   .contactform{
     float: right;
     width: auto;
+    position: absolute;
+    margin-left: 40%;
   }
   .contactform form input[type="text"],.contactform form input[type="number"],.contactform form textarea{
     background-color: transparent;
     border-bottom: 1px solid #12475f;
     color: #12475f;
     height: 40px;
+    width: 430px;
   } 
   }
+
+  
 /*---------CONTACT FORM END-----------------*/
   
 
@@ -498,6 +503,7 @@ background-size:cover;
     height: 450px;
     margin-left: 5px;
     margin-right: 5px;
+    /* margin-top: 60px; */
     box-sizing: border-box;
 }
 
@@ -571,6 +577,11 @@ background-size:cover;
 .card-footer a:hover{
     color: rgb(231, 95, 77);
 }
+.messageimage{
+  height: 350px;
+}
+
+
 
 /*----------------About Us---------*/
 
