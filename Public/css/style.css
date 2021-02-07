@@ -6,14 +6,22 @@
     box-sizing: border-box;
     
 }
-/*------------CONTACT FORM CSS-------------------------*/
+.logo{
+  display: flex;
+}
+.logo p{
+  padding-top: 30px;
+  margin: 0px;
+  font-family: 'Balsamiq Sans', cursive;
+}
 .logo img{
   width: 130px;
+  padding-bottom: 5px;
 }
 .logo p{
   font-weight: bold;
-  color: rgb(17, 96, 216);
-  font-size: 12px;
+  color: #2352ec;
+  font-size: 16px;
   margin-bottom: 0.5rem;
 }
 .navbar{
@@ -21,6 +29,8 @@
   background-color: rgb(255, 255, 255);
   padding: 0rem;
 }
+/*------------CONTACT FORM CSS-------------------------*/
+
 *{
     margin: 0;
     padding: 0;
@@ -51,8 +61,8 @@
     padding: 20px;
     font-size: 15px;
     box-sizing: border-box;
-  
   }
+  
   .contactinfo h2{
     font-size: 20px;
   
@@ -181,43 +191,34 @@
   
   @media only screen and (min-width: 768px){
     .contactform{
-      width: 80%;
+      /* width: 80%; */
       margin: 0 auto;
   }
   .contactform form input[type="text"],.contactform form input[type="number"],.contactform form textarea{
     width: 600px;
   }
-  .logo p{
-    font-weight: bold;
-    color: rgb(17, 96, 216);
-    margin-left: 10px;
-    /* margin-bottom: 0rem; */
-  }
   
   }
   
-  @media only screen and (min-width: 1000px){
+  @media only screen and (min-width: 1360px){
     .cont{
       display: flex;
       justify-content: center;
       align-items: center;
-   /*   background-color: #12475f;*/
-   background: lightblue;
+      background: lightblue;
     }
     .container::before{
       content: '';
       position: absolute;
-      width: 50%;
+      width: 100%;
       height: 100%;
-      /*background-color: #1abc9c;*/
       left: 0;
       top: 0;
     }
     .contact{
       position: relative;
       background-color: rgb(255, 255, 255);
-     /* box-shadow: 5px 5px #1abc9c;*/
-      width: 70%;
+      width: 80%;
       padding: 10px;
       height: 75vh;
     }
@@ -225,9 +226,8 @@
       position: absolute;
       width: 300px;
       height: auto;
-      margin-left: -10%;
+      margin-left: 5%;
       top: 60px;
-      /*box-shadow: 5px 5px #1abc9c;*/
   }
   .socialicon{
     margin: 40px 0;
@@ -243,14 +243,9 @@
     height: 40px;
   
   } 
-  .logo p{
-    font-weight: bold;
-    color: rgb(17, 96, 216);
-    margin-left: 10px;
-    
+  
   }
-  }
-  /*---------CONTACT FORM END-----------------*/
+/*---------CONTACT FORM END-----------------*/
 /* * {
     
     -webkit-transition: all .2s linear;
@@ -377,8 +372,9 @@
         }
         .logo p{
           margin-bottom: 0rem;
+          padding-top: 0;
         }
-  }
+      }
 
 /*---------Header------------*/
 .header1{
@@ -418,7 +414,7 @@
 }
 
 .navbar-nav li{
-    padding: 0 28px;
+    padding: 0 25px;
 }
 
 .navbar-nav li a{
@@ -633,6 +629,12 @@ background-size:cover;
 }
 
 /*---------Facilities---------*/
+.carduniform img{
+  height: 200px;
+}
+.cardcafe img{
+  height: 200px;
+}
 #facilities{
     padding-top:75px ;
 }
@@ -672,6 +674,21 @@ background-size:cover;
 #about{
     padding-top: 75px;
 }
+/* @media screen and (min-width:768px){
+  .carduniform img{
+    height: 100px;
+  }
+  .cardcafe img{
+    height: 100px;
+  }
+  .cardclass img{
+    height: 100px;
+  }
+  .card-body{
+    height: 300px;
+    padding: 0.5rem;
+  }
+} */
 
 /*------------------Page-Footer---------------*/
 
