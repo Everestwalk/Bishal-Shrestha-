@@ -197,10 +197,9 @@
   .contactform form input[type="text"],.contactform form input[type="number"],.contactform form textarea{
     width: 600px;
   }
-  
   }
   
-  @media only screen and (min-width: 1100px){
+  @media only screen and (min-width: 1025px){
     .cont{
       display: flex;
       justify-content: center;
@@ -241,14 +240,13 @@
     border-bottom: 1px solid #12475f;
     color: #12475f;
     height: 40px;
-  
   } 
   }
 /*---------CONTACT FORM END-----------------*/
   
 
 @media only screen and (max-width: 600px) {
-	body {
+	      body {
             word-break: break-all;
             margin: 0;
             padding: 0;
@@ -262,7 +260,7 @@
         }
         .logo p{
           margin-bottom: 0rem;
-          padding-top: 10px;
+          padding-top: 15px;
         }
       }
 
@@ -338,13 +336,16 @@
         .logo p{
           font-weight: bold;
           color: rgb(17, 96, 216);
-          margin-left: 10px;
+          /* margin-left: 10px; */
           margin-bottom: 0px;
-          padding-top: 10px;
+          padding-top: 15px;
           font-size: 14px;
         }
         .clash{
           margin: 0;
+        }
+        .info ul li{
+          word-break: keep-all;
         }
   }
 
@@ -374,7 +375,7 @@ z-index: 0;
     .logo p{
       font-weight: bold;
       color: rgb(17, 96, 216);
-      margin-left: 10px;
+      /* margin-left: 10px; */
       margin-bottom: 0px;
     }
     .clash{
@@ -457,7 +458,7 @@ background-size:cover;
 .knowledge h1{
     text-align: center;
     word-break: keep-all;
-    padding-top: 110px;
+    padding-top: 145px;
     font-size: 55px;
     color: #ffb606;
 }
@@ -496,6 +497,7 @@ background-size:cover;
     background-size: cover;
     height: 450px;
     margin-left: 5px;
+    margin-right: 5px;
     box-sizing: border-box;
 }
 
@@ -522,6 +524,10 @@ background-size:cover;
     font-size: 17px;
     text-align: justify;
     margin-left: 0px;
+}
+.knowledge h1{
+  padding-top: 110px;
+  font-size: 40px;
 }
 }
 
