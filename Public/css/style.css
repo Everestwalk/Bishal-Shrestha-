@@ -4,8 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-}
+ }
 .logo{
   display: flex;
 }
@@ -46,12 +45,10 @@
     overflow-x: hidden;
     width: 100%;
     box-sizing: border-box;
-  
   }
   .contact{
     position: relative;
     width: 100%;
-  
   }
   .contactinfo{
     position: relative;
@@ -65,7 +62,6 @@
   
   .contactinfo h2{
     font-size: 20px;
-  
   }
   .contactinfo hr{
     position: relative;
@@ -74,7 +70,6 @@
     margin: 30px 0;
     background-color: white;
     border: none;
-  
   }
   .info{
     position: relative;
@@ -97,7 +92,6 @@
   }
   .info a{
     color: white;
-  
   }
   .info a:hover{
     text-decoration: underline;
@@ -283,46 +277,35 @@
     color: #fff;
     font-weight: bold;
     font-size: 17px;
-    
-}
+  }
 
 
 /*--------Navbar------*/
-
-
 .logo2{
     margin-left: 35px;
     position: sticky;
 }
-
 #navbar{
     position: sticky;
     top: 0;
     z-index: 1;
-    
-}
-
+  }
 .navbar .logo img{
    padding-left: 50px;
 }
-
 .navbar-nav li{
     padding: 0 25px;
 }
-
 .navbar-nav li a{
     color: rgb(0, 128, 167)!important;
 }
-
 .nav-link{
     text-transform: uppercase;
     font-size: 19px;
 }
-
 .navbar-nav li a:hover{
     color: rgb(223, 86, 97)!important;
 }
-
 .navbar-nav li a.active{
     color: rgb(0, 195, 255)!important;
 }
@@ -355,18 +338,14 @@
   }
 
 /* -------------Slider--------------------*/
-
-
 .carousel-item img{
     height: 550px;
 }
-
 .carousel-caption{
  background: rgba(0, 0, 0, 0.7);
  margin-bottom: 1px;
-z-index: 0;
+ z-index: 0;
 }
-
 .carousel-caption p{
     color: grey;
     font-size: 21px;
@@ -387,34 +366,27 @@ z-index: 0;
       margin: 0;
     }
   }
-
 .carousel-caption h5{
     color:lightgrey;
     font-size: 38px;
-   
-}
-
+  }
 
 /*--------------Introduction--------------*/
 #intro{
     padding-top: 75px;
 }
-
 .intro-header{
     color: rgb(36, 137, 155);
     font-size: 29px;
     font-weight: bold;
 }
-
 .intro-des{
         font-size: 17px;
         text-align: justify;
 }
-
 .intro-img img{
     padding-top: 50px;
 }
-
 .read-more{
     background: rgb(14, 159, 196);
     color: #fff;
@@ -424,42 +396,34 @@ z-index: 0;
     font-weight: bold;
     margin-top: 10px;
 }
-
 .read-more:hover{
     background-color: rgb(170, 255, 170);
     color: black;
 }
-
 .modal-title{
 color: rgb(209, 137, 209);
 font-size: 22px;
 }
-
 .modal-content{
     background: whitesmoke;
 }
-
 .modal-intro{
     font-size: 17px;
     text-align: justify;
 }
-
 .intro-image img{
     padding-top: 20px;
 }
-
 
 /*----------------Banner-------------*/
 #banner{
     padding-top: 75px;
 }
-
 .knowledge{
 background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../image/adhr.jpg); 
 height: 335px;
 background-size:cover;
 }
-
 .knowledge h1{
     text-align: center;
     word-break: keep-all;
@@ -467,7 +431,6 @@ background-size:cover;
     font-size: 55px;
     color: #ffb606;
 }
-
 .know{
     color: #fff;
 }
@@ -476,8 +439,6 @@ background-size:cover;
 #message{
     padding-top: 75px;
 }
-
-
 .message h3{
     color: rgb(32, 123, 165);
     font-weight: bold;
@@ -486,7 +447,6 @@ background-size:cover;
     word-break: keep-all;
     text-align: center;
 }
-
 .message p{
     font-size: 17px;
     text-align: justify;
@@ -496,7 +456,6 @@ background-size:cover;
 #whyus{
     padding-top: 75px;
 }
-
 .grp-img{
     background-image: url('../image/smallstd.jpg');
     background-size: cover;
@@ -506,11 +465,9 @@ background-size:cover;
     /* margin-top: 60px; */
     box-sizing: border-box;
 }
-
 .whyus-des{
     background: whitesmoke;
 }
-
 .whyus-des h3{
     padding-top: 55px;
     text-align: center;
@@ -519,12 +476,12 @@ background-size:cover;
     font-weight: bold;
     color: rgb(32, 123, 165);
 }
-
 .whyus-des p{
     font-size: 17px;
     text-align: justify;
     margin-left: 20px;
 }
+
 @media only screen and (max-width: 600px) {
   .whyus-des p{
     font-size: 17px;
@@ -538,70 +495,38 @@ background-size:cover;
 }
 
 /*---------Facilities---------*/
-.carduniform img{
-  height: 200px;
-}
-.cardcafe img{
-  height: 200px;
-}
 #facilities{
-    padding-top:75px ;
+  padding-top:75px ;
 }
-
 .fac h3{
-    text-align: center;
-    word-break: keep-all;
-    font-size: 31px;
-    font-weight: bold;
-    color: rgb(41, 146, 160);
+  text-align: center;
+  word-break: keep-all;
+  font-size: 31px;
+  font-weight: bold;
+  color: rgb(41, 146, 160);
 }
 .card-body{
-    height: 250px;
-    word-break: break-all;
+  height: auto;
+  word-break: break-all;
 }
-
 .card-body .card-title{
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
-
-.card-footer{
-    text-align: right;
-    font-size: 21px;
-}
-
-.text-muted{
-    color: purple;
-    font-weight: bold;
-}
-
-.card-footer a:hover{
-    color: rgb(231, 95, 77);
-}
-.messageimage{
-  height: 350px;
-}
-
-
-
 /*----------------About Us---------*/
-
 #about{
     padding-top: 75px;
 }
-
 #footer
 {
 	background: #111111;
 	color: #fff;
 	padding: 12px;	
 }
-
 .fa-copyright
 {
 	margin: 3px;
 	color: red;
 }
-
 #footer ul
 {
 	text-align: left;
@@ -616,7 +541,6 @@ background-size:cover;
 {
 	color: lightgray;
 }
-
 #footer a 
 {
 	text-decoration: none;
