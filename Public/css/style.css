@@ -5,6 +5,15 @@
     padding: 0;
     box-sizing: border-box;
  }
+ 
+ .newbuild video{
+   width: 640px;
+ }
+ .newp{
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 148, 47);
+ }
 .logo{
   display: flex;
 }
@@ -31,8 +40,6 @@
 /*------------CONTACT FORM CSS-------------------------*/
 
 *{
-    margin: 0;
-    padding: 0;
     list-style: none;
     text-decoration: none;
   }
@@ -191,6 +198,9 @@
   .contactform form input[type="text"],.contactform form input[type="number"],.contactform form textarea{
     width: 700px;
   }
+  .newbuild video{
+    width: 640px;
+  }
   }
   
   @media only screen and (min-width: 1000px){
@@ -238,6 +248,9 @@
     height: 40px;
     width: 430px;
   } 
+  .newbuild video{
+    width: 640px;
+  }
   }
 
   
@@ -250,16 +263,18 @@
             margin: 0;
             padding: 0;
         }
-        .logo2{
-            margin: 0;
-            padding: 0;
-        }
         .clash{
           margin: 0;
         }
         .logo p{
           margin-bottom: 0rem;
           padding-top: 15px;
+        }
+        .newbuild video{
+          width: 335px;
+        }
+        .newp{
+          font-size: 20px;
         }
       }
 

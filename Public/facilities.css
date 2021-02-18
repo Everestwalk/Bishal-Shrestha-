@@ -80,6 +80,14 @@ h2{
 	color: #0073B1;
 	font-size: 30px;
 }
+h3{
+	color: rgb(32, 123, 165);
+    font-weight: bold;
+    font-size: 28px;
+    padding: 30px;
+    word-break: keep-all;
+    text-align: center;
+}
 .top-text-part{
 	display: flex;
 }
@@ -236,6 +244,6 @@ hr{
 }
 @media only screen and (max-width: 600px){
 	img{
-		width: 350px;
+		padding: 0 20px;
 	}
 }
