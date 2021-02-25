@@ -454,6 +454,9 @@ background-size:cover;
 #message{
     padding-top: 75px;
 }
+#messagechairperson{
+  padding-top: 70px;
+}
 .message h3{
     color: rgb(32, 123, 165);
     font-weight: bold;
@@ -506,6 +509,9 @@ background-size:cover;
 .knowledge h1{
   padding-top: 110px;
   font-size: 40px;
+}
+#messagechairperson{
+  padding-top: 0px;
 }
 }
 
